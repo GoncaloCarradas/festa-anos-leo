@@ -579,7 +579,7 @@ function renderSelectedDrinks(type) {
 
 
     title.textContent =
-        "🥇 Arrasta para ordenar:";
+        "NÃO TE ESQUEÇAS DE PÔR POR ORDEM!!:";
 
 
     container.appendChild(
