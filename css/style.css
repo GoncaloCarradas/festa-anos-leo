@@ -449,7 +449,7 @@ input:focus-visible {
     align-items: center;
     justify-content: center;
     gap: 12px;
-    background-color: rgba(212, 237, 109, 0.3);
+    background-color:#094027;
     border-color: var(--lime);
     color: var(--lime);
     
@@ -499,7 +499,7 @@ input:focus-visible {
 
     padding: 14px 16px;
 
-    background: rgba(9, 64, 39, 0.35);
+    background: #094027;
     color: var(--white);
 
     font-family: var(--body-font);
@@ -541,7 +541,7 @@ input:focus-visible {
     width: 100%;
 
     border: 1px solid var(--lime);
-    background: transparent;
+    background: #094027;
     color: var(--white);
     text-align: left;
 }
@@ -583,7 +583,7 @@ input:focus-visible {
     border: 1px solid rgba(212, 237, 109, 0.42);
     border-radius: 5px;
 
-    background: rgba(9, 64, 39, 0.32);
+    background: #094027;
     text-align: left;
 }
 
