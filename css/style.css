@@ -448,7 +448,7 @@ input:focus-visible {
     align-items: center;
     justify-content: center;
     gap: 12px;
-
+    background-color: rgba(212, 237, 109, 0.3);
     border-color: var(--lime);
     color: var(--lime);
 }
