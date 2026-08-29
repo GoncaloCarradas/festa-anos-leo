@@ -807,12 +807,6 @@ input:focus-visible {
         opacity: 0.9;
     }
 
-    .art-details {
-        width: 300px;
-        right: -90px;
-        bottom: -55px;
-    }
-
     .buttons,
     .navigation-buttons {
         flex-direction: column;
