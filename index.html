@@ -23,7 +23,6 @@
         <div class="artwork" aria-hidden="true">
             <img class="art-flower" src="assets/flower.png" alt="">
             <img class="art-hand" src="assets/hand_glass.png" alt="">
-            <img class="art-details" src="assets/decorations.png" alt="">
         </div>
 
         <!-- BARRA DE PROGRESSO -->
@@ -112,16 +111,8 @@
             </p>
 
             <div class="form-group">
-
                 <label for="guest-name">NOME QUE APARECE NO CARTÃO DE CIDADÃO:</label>
-                
-                <input
-                    type="text"
-                    id="guest-name"
-                    placeholder="Ex.: Leo Messi"
-                    autocomplete="name"
-                >
-
+                <input type="text" id="guest-name" placeholder="Ex.: Leo Messi" autocomplete="name"> 
             </div>
 
             <div class="navigation-buttons">
@@ -222,13 +213,13 @@
 
                 <div id="guest-drinks-list" class="drinks-list">
 
-                    <button class="drink-option" data-drink="Cerveja">🍺 Jola</button>
-                    <button class="drink-option" data-drink="Gin">🥃 Cidra</button>
-                    <button class="drink-option" data-drink="Whisky">🥃 Sangria</button>
+                    <button class="drink-option" data-drink="Jola">🍺 Jola</button>
+                    <button class="drink-option" data-drink="Cidra">🥃 Cidra</button>
+                    <button class="drink-option" data-drink="Sangria">🥃 Sangria</button>
                     <button class="drink-option" data-drink="Vodka">🍸 Vodka</button>
-                    <button class="drink-option" data-drink="Rum">🍸 Gin</button>
+                    <button class="drink-option" data-drink="Gin">🍸 Gin</button>
                     <button class="drink-option" data-drink="Refrigerantes">🥤 Refrigerantes</button>
-                    <button class="drink-option" data-drink="Água">💧 Água</button>
+                    <button class="drink-option" data-drink="Água">💧 H2O</button>
 
                 </div>
 
@@ -244,23 +235,25 @@
             <div id="companion-drinks-section" class="drinks-section hidden">
 
                 <h2>BEBIDAS DO PERSONAGEM SECUNDÁRIO</h2>
-
+               
+                <p class="small-text">Escolhe as tuas bebidas</p>
 
                 <div id="companion-drinks-list" class="drinks-list">
 
-                    <button class="drink-option" data-drink="Cerveja">🍺 Jola</button>
-                    <button class="drink-option" data-drink="Gin">🥃 Cidra</button>
-                    <button class="drink-option" data-drink="Whisky">🥃 Sangria</button>
-                    <button class="drink-option" data-drink="Vodka">🍸 Vodka</button>
-                    <button class="drink-option" data-drink="Rum">🍸 Gin</button>
-                    <button class="drink-option" data-drink="Refrigerantes">🥤 Refrigerantes</button>
-                    <button class="drink-option" data-drink="Água">💧 Água</button>
+                    <button class="companion-drink-option" data-drink="Jola">🍺 Jola</button>
+                    <button class="companion-drink-option" data-drink="Cidra">🥃 Cidra</button>
+                    <button class="companion-drink-option" data-drink="Sangria">🥃 Sangria</button>
+                    <button class="companion-drink-option" data-drink="Vodka">🍸 Vodka</button>
+                    <button class="companion-drink-option" data-drink="Gin">🍸 Gin</button>
+                    <button class="companion-drink-option" data-drink="Refrigerantes">🥤 Refrigerantes</button>
+                    <button class="companion-drink-option" data-drink="Água">💧 H2O</button>
 
                 </div>
 
                 <div id="companion-selected-drinks" class="selected-drinks">
-                    <p class="empty-drinks">Ainda não escolheste nenhuma bebida.</p>
+                    <p class="empty-drinks">Ainda não escolheste, para de fingir que não bebes.</p>
                 </div>
+
 
             </div>
 
