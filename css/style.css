@@ -428,7 +428,7 @@ input:focus-visible {
     align-items: center;
     justify-content: center;
     gap: 18px;
-    text-transform: uppercase;
+    
 
     min-width: 170px;
 
@@ -452,7 +452,7 @@ input:focus-visible {
     background-color: rgba(212, 237, 109, 0.3);
     border-color: var(--lime);
     color: var(--lime);
-    text-transform: uppercase;
+    
 }
 
 
