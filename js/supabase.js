@@ -11,7 +11,7 @@ const supabaseClient = window.supabase.createClient(
 
 console.log("Supabase carregado:", supabaseClient);
 
-async function testarSupabase() {
+/*async function testarSupabase() {
 
     const { data, error } = await supabaseClient
     .from("Respostas convite")
@@ -47,7 +47,40 @@ async function testarSupabase() {
         data
     );
 
+}*/
+
+async function saveToSupabase() {
+
+    const { data, error } = await supabaseClient
+        .from("Respostas convite")
+        .insert([
+            {
+                nome: guest.name,
+                confirmado: true,
+                tem_acompanhante: guest.hasCompanion,
+                nome_acompanhante: guest.companionName || null,
+                bebidas: guest.drinks,
+                bebidas_acompanhante: guest.companionDrinks,
+                musicas: guest.songs
+            }
+        ]);
+
+    if (error) {
+
+        console.error(
+            "ERRO AO GUARDAR:",
+            error
+        );
+
+        alert(
+            "Ocorreu um erro ao guardar a resposta."
+        );
+
+        return;
+    }
+
+    console.log(
+        "Resposta gravada com sucesso:",
+        data
+    );
 }
-
-
-testarSupabase();

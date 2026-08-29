@@ -1208,8 +1208,10 @@ finishForm.addEventListener(
         console.log(
             "================================="
         );
-
-
+        saveToSupabase();
+        console.log(
+            "GRAVOU:"
+        );
         finalGuestName.textContent =
             guest.name;
 
